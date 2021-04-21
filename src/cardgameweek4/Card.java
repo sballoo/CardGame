@@ -5,10 +5,8 @@ package cardgameweek4;
  * @author dancye, 2019
  * Modifier Khusboo Shaivi Balloo , 2021 
  * ID: 991614490
- */
-public class Card {
-
-    /**
+ */   
+/**
      *Class Card and Class CardHand are loosely coupled, 
      * there is no dependency between these two classes
      * if we have to change anything in class Card 
@@ -23,7 +21,8 @@ public class Card {
      * 
      */
     
-        
+public class Card {
+
        public enum Color {RED, YELLOW, GREEN, BLUE};
        public enum Value{ZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, SKIP, REVERSE, DRAWTWO, DRAWFOUR, WILDCARD};
         private final Color color;
